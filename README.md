@@ -5,8 +5,8 @@ A turn-based, text-based RPG battle game written in Python. Pick a hero class, t
 
 ## Game Modes
 
-1. **Fight an Enemy (solo)** — You pick a hero and battle a randomly chosen enemy controlled by simple AI.
-2. **Two-Player Battle** — Two players each pick a hero and trade turns on the same machine.
+1. **Fight an Enemy (solo)** — You pick a hero and battle a randomly chosen enemy.
+2. **Two-Player Battle** — Two players each pick a hero and trade turns battling each other.
 
 ## Hero Classes
 
@@ -17,7 +17,7 @@ A turn-based, text-based RPG battle game written in Python. Pick a hero class, t
 | Warrior | 120–130 | 14–16 | 18–20 | 70 | 25 | 10–12 | 92% | 65% |
 | Rogue | 75–85 | 13–15 | 22–25 | 100 | 25 | 2–4 | 95% | 85% |
 
-Stats are rolled randomly within the listed ranges at the start of each game, so no two runs are identical.
+Stats are rolled randomly within the listed ranges at the start of each game, so no two runs are the same.
 
 - **Wizard** — accurate but works with a thin mana pool. Cheapest special attack.
 - **Avatar** — glass cannon. Fireballs hit hardest, but low defense and HP.
@@ -32,11 +32,11 @@ Stats are rolled randomly within the listed ranges at the start of each game, so
 | Troll | 115–130 | 13–16 | 10–13 | 40 | 8–10 |
 | Dark Sorcerer | 80–90 | 9–11 | 28–32 | 120 | 4–6 |
 
-The enemy is picked at random each solo run. On its turn it uses its special attack roughly 50% of the time when it has the mana, otherwise it attacks normally.
+The enemy is picked at random each solo run. On its turn, it uses its special attack roughly 50% of the time when it has mana; otherwise, it attacks normally.
 
 ## Turn Options
 
-On your turn you can:
+On your turn, you can:
 
 1. **Attack** — basic hit, gated by your ATK Luck roll.
 2. **Special Attack** — costs mana, deals more damage, gated by SPATK Luck.
